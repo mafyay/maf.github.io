@@ -94,7 +94,9 @@ The same idea applies to *requirements-dev.txt*.
 
 ## Final thoughts
 
-I hope this quick guide has brought some clarity on the core idea of a Python virtual environment, as well as how to quickly get one up and running.
+The clean approach to creating projects is to *not* dump your entire virtual environment folder in your Git repository, and instead adding a **Run** section to your README file, where you explain **How to create a virtual environment** and **How to install the requirements**.
+
+That's it. I hope this quick guide has brought some clarity on the core idea of what a Python virtual environment is, as well as how to quickly get one up and running!
 
 ## Sources
 - [Python venv - Documentation](https://docs.python.org/3.12/library/venv.html)
